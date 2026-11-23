@@ -1,6 +1,6 @@
 # TrueWave Support
 
-TrueWave is an offline binaural-beat and tone generator for iPhone and iPad.
+TrueWave is a real-time binaural-beat, isochronic-pulse, and pure-tone frequency generator synthesized on your device for iPhone and iPad.
 
 ## Get help
 
