@@ -4,11 +4,11 @@ Last updated: November 23, 2026
 
 TrueWave does not collect, sell, or share personal data. There are no user accounts, no sign-up, no advertising, and no cross-app tracking.
 
-## Data we collect (anonymous product interaction)
+## Data we collect (anonymous product interaction & purchase status)
 
 TrueWave synthesizes audio locally on your device in real time and contains no third-party analytics or advertising SDKs.
 
-To understand which presets and instrument controls are useful and to improve the app, TrueWave sends minimal anonymous product interaction events (such as app opens, preset session starts and durations, custom generator adjustments, and purchase-flow status) over HTTPS to our EU-hosted analytics service (PostHog EU) using a random app-scoped identifier generated locally on your device. If you listen offline or in Airplane Mode, events may be queued locally in app storage and sent when a connection becomes available.
+To understand which presets and instrument controls are useful and to improve the app, TrueWave sends minimal anonymous **Product Interaction** events (such as app opens, preset session starts and durations, and custom generator adjustments) and anonymous **Purchase History / Status** events (such as whether the one-time `com.truewave.unlock_all` unlock started, completed, cancelled, or restored) over HTTPS to our EU-hosted analytics service (PostHog EU) using a random app-scoped identifier generated locally on your device. If you listen offline or in Airplane Mode, events may be queued locally in app storage and sent when a connection becomes available.
 
 This anonymous interaction data is:
 - **Not linked to your identity** (no name, email address, Apple ID, or contact information is collected)
